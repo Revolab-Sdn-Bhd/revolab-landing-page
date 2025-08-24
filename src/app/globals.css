@@ -11,8 +11,8 @@
   --color-foreground: var(--foreground);
   --font-roboto: var(--font-roboto);
 
-  --color-primary: #0D3769;
-  --color-secondary: #D9EDFF;
+  --color-primary: #0d3769;
+  --color-secondary: #d9edff;
   --color-caption: #717680;
 }
 
@@ -20,4 +20,18 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
 }

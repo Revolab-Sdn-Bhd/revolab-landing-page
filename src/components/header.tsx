@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Image
@@ -58,7 +58,7 @@ const Header = () => {
           </nav>
 
           {/* Contact Us Button */}
-          <div className="flex items-center">
+          <div className="items-center hidden md:flex">
             <button
               type="button"
               className="bg-primary hover:bg-primary/80 text-white px-6 py-2 rounded-full text-sm font-medium transition-colors cursor-pointer"

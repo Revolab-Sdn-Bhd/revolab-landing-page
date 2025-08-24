@@ -13,7 +13,7 @@ const TrustedSection = () => {
           </div>
 
           {/* Right Content - Company Logos */}
-          <div className="flex flex-row gap-2 items-center">
+          <div className="flex flex-col md:flex-row gap-2 items-center">
             {/* Logo 1 */}
             <div className="bg-white rounded-lg p-6 flex items-center justify-center hover:scale-105 transition-transform">
               <div className="w-24 h-12 bg-gray-200 rounded flex items-center justify-center">

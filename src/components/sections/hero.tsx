@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="container mx-auto">
       <div className="min-h-[90vh] flex items-center">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center m-4">
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-6">
@@ -113,7 +113,7 @@ const HeroSection = () => {
                     alt="Business Analytics Dashboard"
                     width={400}
                     height={400}
-                    className="w-[400px] h-[400px] object-cover [clip-path:circle(400px_at_100%_100%)]"
+                    className="w-[300px] h-[250px] md:w-[400px] md:h-[400px] object-cover [clip-path:circle(100%_at_100%_100%)]"
                   />
                 </div>
 

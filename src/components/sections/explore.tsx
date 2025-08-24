@@ -3,7 +3,7 @@ import React from "react";
 
 const ExploreSection = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-16">
@@ -58,7 +58,6 @@ const ExploreSection = () => {
                 alt="explore_2_1"
                 width={300}
                 height={200}
-                objectFit="cover"
                 className="rounded-lg w-[300px] h-[200px] object-cover"
               />
               <Image
@@ -87,7 +86,6 @@ const ExploreSection = () => {
                 alt="explore_3_1"
                 width={300}
                 height={200}
-                objectFit="cover"
                 className="rounded-lg w-[300px] h-[200px] object-cover"
               />
               <Image
